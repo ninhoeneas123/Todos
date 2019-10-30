@@ -1,0 +1,103 @@
+<html>
+    <head>
+
+    </head>
+<body>
+<style type="text/css">
+
+
+body{
+    background-image:url("img/pine.jpg");
+}
+
+
+h1{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    align-items:center;
+    flex-direction: column;
+
+}
+
+.alinhamento{
+    display:flex;
+    justify-content:center;
+    align-content: center;
+    align-items:center;
+    flex-direction: column;
+
+
+}
+
+.box1{
+width: 500px;
+
+
+
+}
+
+
+#container-inserir{
+    width: 300px;
+    margin-left: calc(50% - 150px);
+    
+}
+
+.cabecalho{
+  border: 2px ridge black;          
+  padding: 2px;
+  background-image: url(img/azul.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  }
+
+.h3 {
+    border-top: 5px solid gray;
+    background-image:url(img/folha.jpg);
+    width: 300px;
+    margin-left: calc(50% - 150px);
+    
+    }
+.margin{
+margin: 15px;
+
+}
+.rodape{
+  border: 2px ridge black;          
+  padding: 2px;
+  background-image: url(img/azul.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+</style>
+
+
+<div id="app">
+<div class="cabecalho">
+        <h1>Minha lista de Tarefas:</h1>
+
+<div id="container-inserir">
+
+    <input classtype="text"  placeholder="Digite uma tarefa:">
+    <button>Adicionar tarefa</button>
+</div>
+<br>
+
+
+</div>
+<br><br>
+<div class="h3">
+   <h3 class="margin"><p> Minhas Tarefas:</p></h3>
+<ul class="alinhamento"></ul>
+
+<script src='todos.js'></script>
+
+</div>
+<footer class="rodape">
+
+
+</footer>
+</body>
+</html>
